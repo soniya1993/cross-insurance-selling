@@ -37,6 +37,26 @@ Vintage : Number of Days, Customer has been associated with the company
 
 Response : 1 - Customer is interested, 0 - Customer is not interested
 
+# Data Wrangling
+
+After loading our dataset, we observed that our dataset has 381109 rows and 12 columns. We applied a null check and found that our data set has no null values. Further, we treated the outliers in our dataset using a quantile method.
+
+# EDA
+
+In Exploratory Data Analysis, firstly we explored the 4 numerical features: Age, Policy_Sales_Channel, Region_Code, Vintage. Further, we categorized age as youngAge, middleAge, and oldAge and also categorized policy_sales_channel and region_code. From here we observed that customers belonging to the youngAge group are less interested in taking vehicle insurance. Similarly, Region_C, Channel_A have the highest number of customers who are not interested in insurance. From the vehicle_Damage feature, we were able to conclude that customers with vehicle damage are more likely to take vehicle insurance. Similarly, the Annual Premium for customers with vehicle damage history is higher.
+
+![image](https://user-images.githubusercontent.com/97510475/180388372-5e9339b2-ac21-46c7-adc8-e56bbe98073d.png)
+
+# Model Fitting
+
+Decision Tree
+
+Random Forest
+
+K Nearest Neighbour
+
+Logistic Regression
+
 # Conclusion
 
 The ML model for the problem statement was created using python with the help of the dataset, and the ML model created with Random Forest, Decision Tree, Logistic Regression, K nearest neighbour and Decision Tree and Random Forest models performed better than Logistics Regression model an K Nearest Neighbour.
